@@ -19,7 +19,9 @@ Symbol | Usage
 | ] | End loop (break if currently selected cell is 0)
 | . | Output cell as ASCII
 | , | Take ASCII input as integer
+
 I have taken it upon myself to add more characters:
+
 Symbol | Usage
 ---|---
 | # | Output pointer, stack, eye (file input pointer), surrounding instructions, and current loops (this is mostly for debug)

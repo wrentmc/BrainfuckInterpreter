@@ -6,6 +6,8 @@ My interpretation of a [brainfuck](https://en.wikipedia.org/wiki/Brainfuck) inte
   * <ins>e</ins>xtra: Disable extra commands (extra commands are enabled by default)
   * <ins>i</ins>nfinity: Allow numbers to go infinitely high or low: 0=none, 1=high, 2=low, 3=both (default: 0)
     * By default, numbers wrap around from 255<->0
+  * <ins>v</ins>isual: Primitive visualization. (default: disabled)
+  * <ins>d</ins>elay: Delay by `n:float` seconds. (default: 0)
 
 # Text2BF
 `text2bf.py` is a primitive program to create a BF file to print something. In the file, `text_to_translate` can be changed arbitrarily. The desired filename should be passed into the program via STDIN.
